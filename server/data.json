@@ -1,0 +1,33 @@
+[
+    {
+        "proj_name":"proj-const",
+        "proj_type":"Webapp",
+        "proj_tools":[
+            "Next.ts","Postgres"
+        ],
+        "proj_img":"ss_proj.png",
+        "proj_details":"",
+        "proj_gh":"",
+        "proj_site":""
+    },
+    {
+        "proj_name":"Empire.ph",
+        "proj_type":"Websites (Front-end)",
+        "proj_tools":[
+            "Django","SQLite","Wagtail"
+        ],
+        "proj_details":"",
+        "proj_gh":"",
+        "proj_site":""
+    },
+    {
+        "proj_name":"e-skedyul",
+        "proj_type":"Webapp",
+        "proj_tools":[
+            "Next.ts","MySQL","Typescript"
+        ],
+        "proj_details":"",
+        "proj_gh":"",
+        "proj_site":""
+    }
+]

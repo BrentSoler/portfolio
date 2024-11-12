@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Franklin;
+        src: url(./assets/fonts/ITCFranklinGothicStd-DmCp.otf) format("opentype");
+    }
+
+    @font-face {
+        font-family: Monolisa;
+        src: url(./assets/fonts/MonoLisa-Light.ttf) format("truetype");
+    }
+
+    html {
+        font-family: "Franklin", system-ui, sans-serif;
+        background-color: #f6e6cb;
+    }
+}
+
+.mono {
+    font-family: "Monolisa", system-ui, sans-serif;
+}
+
+.outline-stroke {
+    color: #f6e6cb;
+    text-shadow:
+        -3px -3px #79a083,
+        3px -3px #78a083,
+        -3px 3px #78a083,
+        3px 3px #78a083;
+}
+
+.mono {
+    font-family: "Monolisa", system-ui, sans-serif;
+}
+
+.bgred {
+    background-color: #f6cbce;
+}
+
+.bggreen {
+    background-color: #cbf6cf;
+}
+
+.bgblue {
+    background-color: #cbd7f6;
+}
+
+.bgpurple {
+    background-color: #f2cbf6;
+}
+
+.move {
+    position: fixed;
+    transform: translateX(0%);
+    animation-name: normal;
+    animation-duration: 230s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes normal {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-70%);
+    }
+}
+
+.reversed {
+    position: fixed;
+    transform: translateX(0%);
+    animation-name: reversed;
+    animation-duration: 230s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes reversed {
+    from {
+        transform: translateX(-70%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
